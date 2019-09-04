@@ -1,0 +1,37 @@
+PODS:
+  - DryUM-iOS (0.0.1):
+    - UMCAnalytics
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
+  - UMCAnalytics (6.0.5):
+    - UMCCommon
+  - UMCCommon (2.1.1)
+  - UMCPush (3.2.4):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
+
+DEPENDENCIES:
+  - DryUM-iOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - UMCAnalytics
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
+
+EXTERNAL SOURCES:
+  DryUM-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DryUM-iOS: 277ef9428d8efd233dbb9eecbb0d2cfbfe6b84be
+  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
+  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
+  UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+
+PODFILE CHECKSUM: 4985a3e7de8ef7a9a7386464c40b67c295efd5af
+
+COCOAPODS: 1.8.0.beta.2

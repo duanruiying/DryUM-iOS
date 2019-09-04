@@ -1,0 +1,1078 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 659A333171E297639FF7EB7798504CBD /* Build configuration list for PBXAggregateTarget "UMCCommon" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UMCCommon;
+		};
+		8B5BB4D9C85FBB3B774B6C624239821A /* UMCSecurityPlugins */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 29CC3BA24298E548A5C728432AE3B6C5 /* Build configuration list for PBXAggregateTarget "UMCSecurityPlugins" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UMCSecurityPlugins;
+		};
+		8FBAE66FA6352AB9D5094143816D813B /* UMCPush */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A72DB3BA64D16DB9BF298CDBE8BA1015 /* Build configuration list for PBXAggregateTarget "UMCPush" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1AA74F1DC8F967A299E55F117770183E /* PBXTargetDependency */,
+			);
+			name = UMCPush;
+		};
+		FD2E8643412994484A50DA7D3BFB1EFC /* UMCAnalytics */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 855840CB447AB7371B32F8AA557D3A71 /* Build configuration list for PBXAggregateTarget "UMCAnalytics" */;
+			buildPhases = (
+			);
+			dependencies = (
+				7543CDCCA3373472C138AD41ACFE97FA /* PBXTargetDependency */,
+			);
+			name = UMCAnalytics;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0FEF36B5310074ABE2DC7A47ACF64B60 /* DryUMPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 717E9EFA39FFB7277CC05393F2FC1E20 /* DryUMPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C733C9625ED90D6FF5611BD65478FCD /* DryUMPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6782E7ADA0747BA3E54B436FB528B671 /* DryUMPush.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2943D57AA201883A88437BD1B07181D2 /* DryUM-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8C19A1C669987D83A92C377364B439 /* DryUM-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F107BF6599AFFAC4F2636C6A7A57D6B /* DryUM-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F8D6DD666B2773C3CBD2212F6F2550 /* DryUM-iOS-dummy.m */; };
+		44D3926B890FD7CC618608E7BEB3C95D /* Pods-DryUM-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D0097FDB9161EAA2CC47006546F77 /* Pods-DryUM-iOS_Example-dummy.m */; };
+		639EEA44C3EC9932A2093E93A94BC942 /* DryUM.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA242A41FE20A1FC254299C124EADC /* DryUM.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		80D462C4F5BF82FCDF7A20604716B9D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C73CEC62C407A6DDCFA58167684562BA /* DryUM.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D63B4E719D1F8A9A06C242BC94BEBC /* DryUM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE2D97CE36D33111BC335CCC9F755967 /* DryUMAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 2579F5CBB249A5B225B00A4252107DD2 /* DryUMAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7412AD174474EF55283F71885372828 /* DryUMAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEC70BE72E5CAF632F7ADC6E11BAC92 /* DryUMAnalytics.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F4D137F2C45442F2C0001CFA7754348E /* Pods-DryUM-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D13810144D72AD4E6E2C61F4910B328D /* Pods-DryUM-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B074A61295CE1FEC7F083FDAADAD8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08FD1EC6C4E7D1C3330D435673D1387A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBAE66FA6352AB9D5094143816D813B;
+			remoteInfo = UMCPush;
+		};
+		0BB9ED34BA90BD3BC565D0CB323D928C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD2E8643412994484A50DA7D3BFB1EFC;
+			remoteInfo = UMCAnalytics;
+		};
+		2DD89F9193875CA31D459FC9B6C365EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6B630FA5213AB083E7CEF1F986FE44;
+			remoteInfo = UMCCommon;
+		};
+		3B890C6CDD9F3AF9D5B6E800B6ED8823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6B630FA5213AB083E7CEF1F986FE44;
+			remoteInfo = UMCCommon;
+		};
+		5734CD1BB5AB6D474708A8D2A1D7CDD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD2E8643412994484A50DA7D3BFB1EFC;
+			remoteInfo = UMCAnalytics;
+		};
+		63406EDA607D7E82E1889A5BAAAA5675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B5BB4D9C85FBB3B774B6C624239821A;
+			remoteInfo = UMCSecurityPlugins;
+		};
+		7216E56F514B38B15E3045E9446151E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B5BB4D9C85FBB3B774B6C624239821A;
+			remoteInfo = UMCSecurityPlugins;
+		};
+		B94FB9E65A4112596F71478C9A36DCA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6B630FA5213AB083E7CEF1F986FE44;
+			remoteInfo = UMCCommon;
+		};
+		D9F0C3CD25FC71B4D478A8E57D033CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6B630FA5213AB083E7CEF1F986FE44;
+			remoteInfo = UMCCommon;
+		};
+		E50AEDDFB57D5ADC9D1314AB717F8D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBAE66FA6352AB9D5094143816D813B;
+			remoteInfo = UMCPush;
+		};
+		F1364A1C1DA32432AC59EF493B73ED35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E6AF4D06BFD57DD3556BD06230AC68;
+			remoteInfo = "DryUM-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013AE1C39754E6A1A13E308AB5C340B6 /* Pods-DryUM-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryUM-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1EB1EC54067D1FE1AC7DD87B57894F13 /* Pods-DryUM-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DryUM-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		1F580AD9446CADD38D0B0AB4B4E72C9D /* DryUM-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DryUM-iOS.xcconfig"; sourceTree = "<group>"; };
+		2579F5CBB249A5B225B00A4252107DD2 /* DryUMAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DryUMAnalytics.h; path = "DryUM-iOS/Classes/Code/Public/DryUMAnalytics.h"; sourceTree = "<group>"; };
+		2F57F4286F601F4B7DD67ACF01C27732 /* DryUM-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryUM-iOS-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		375EB40BFC1E61FE8862EC83F102F9AC /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		38187D51A2F7D05F40B2F4F574242720 /* DryUM-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DryUM-iOS.modulemap"; sourceTree = "<group>"; };
+		3FDA242A41FE20A1FC254299C124EADC /* DryUM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DryUM.m; path = "DryUM-iOS/Classes/Code/Public/DryUM.m"; sourceTree = "<group>"; };
+		416723B517942ABCAC779DAC2B197150 /* UMCAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCAnalytics.xcconfig; sourceTree = "<group>"; };
+		4E8C19A1C669987D83A92C377364B439 /* DryUM-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryUM-iOS-umbrella.h"; sourceTree = "<group>"; };
+		5C6D0097FDB9161EAA2CC47006546F77 /* Pods-DryUM-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DryUM-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		634883B11CDD45F36A49E0CF7EE3F471 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		6782E7ADA0747BA3E54B436FB528B671 /* DryUMPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DryUMPush.m; path = "DryUM-iOS/Classes/Code/Public/DryUMPush.m"; sourceTree = "<group>"; };
+		68395DC2878DC721F721473586356617 /* SecurityEnvSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityEnvSDK.framework; path = thirdparties/SecurityEnvSDK.framework; sourceTree = "<group>"; };
+		717E9EFA39FFB7277CC05393F2FC1E20 /* DryUMPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DryUMPush.h; path = "DryUM-iOS/Classes/Code/Public/DryUMPush.h"; sourceTree = "<group>"; };
+		82F8D6DD666B2773C3CBD2212F6F2550 /* DryUM-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DryUM-iOS-dummy.m"; sourceTree = "<group>"; };
+		8A765B15ADC3D0748EBFE6B9E111BD9F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A60EF09340089E51B37BE1AE228CACD6 /* DryUM-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DryUM-iOS-Info.plist"; sourceTree = "<group>"; };
+		A8069B764A506D19D9BA1A03150D52ED /* UMCCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommon.xcconfig; sourceTree = "<group>"; };
+		B3D927780820E01E98A6BC7E1ACE8157 /* Pods-DryUM-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryUM-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		B6C72541FD1048DC7231563F14699337 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB20446619FAAA81A3E789B230ABD7E9 /* DryUM-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "DryUM-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0CE4B0036FCB6213E25D45CBDD34062 /* DryUM_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DryUM_iOS.framework; path = "DryUM-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13810144D72AD4E6E2C61F4910B328D /* Pods-DryUM-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DryUM-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		D6BE4D33E1D0FB77724E0BBF5E6DFF8F /* UMCSecurityPlugins.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCSecurityPlugins.xcconfig; sourceTree = "<group>"; };
+		E063519B5F3E72BF5EB2951676911559 /* Pods-DryUM-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryUM-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6DFA4049E98F516636383397C9315D6 /* Pods_DryUM_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DryUM_iOS_Example.framework; path = "Pods-DryUM-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C202383DD75EF5E335CA55B6A3411B /* Pods-DryUM-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DryUM-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA1ED3BD5E723A5D8E409CE7C7C49009 /* UMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMPush.framework; sourceTree = "<group>"; };
+		F5D63B4E719D1F8A9A06C242BC94BEBC /* DryUM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DryUM.h; path = "DryUM-iOS/Classes/Code/Public/DryUM.h"; sourceTree = "<group>"; };
+		F8B340757AED6C3054FC107D0C09E878 /* UMCPush.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCPush.xcconfig; sourceTree = "<group>"; };
+		FCB64A5B8777140DB51948113155253C /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = thirdparties/UTDID.framework; sourceTree = "<group>"; };
+		FCEE0A85C6C694BAADACCBAEA50C16BF /* Pods-DryUM-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryUM-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FFEC70BE72E5CAF632F7ADC6E11BAC92 /* DryUMAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DryUMAnalytics.m; path = "DryUM-iOS/Classes/Code/Public/DryUMAnalytics.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		414CD64621737084F570BB505C547D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D462C4F5BF82FCDF7A20604716B9D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E4ED4AA2D70557CC25D0CF9C5A49EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B074A61295CE1FEC7F083FDAADAD8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4121EAB107207A38DAEBC47BA728E4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FB2882A2CD22E7E932E61A3048D65 /* DryUM-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		207CCAB22E987B5A5198A948EEA8E017 /* UMCCommon */ = {
+			isa = PBXGroup;
+			children = (
+				E543D6F6B8BBC7C1BCDF091781AE8840 /* Frameworks */,
+				532618A791BAE0DFED564FB3A43FCBAB /* Support Files */,
+			);
+			name = UMCCommon;
+			path = UMCCommon;
+			sourceTree = "<group>";
+		};
+		3251CEB5D9667794DA7F7B4ECD046382 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				634883B11CDD45F36A49E0CF7EE3F471 /* UMAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39DA214630776F7F05C2304846392012 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2733A00997D3EE3426D411C8AA3F3D5 /* UMCAnalytics */,
+				207CCAB22E987B5A5198A948EEA8E017 /* UMCCommon */,
+				7E3E58AE9F5F213244C435B83D70CC7A /* UMCPush */,
+				FE829E37CDC993894DD1A7FBB9A53998 /* UMCSecurityPlugins */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BA0F2D4C849DD6B1FF46DF13D712471 /* Pods-DryUM-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1EB1EC54067D1FE1AC7DD87B57894F13 /* Pods-DryUM-iOS_Example.modulemap */,
+				E9C202383DD75EF5E335CA55B6A3411B /* Pods-DryUM-iOS_Example-acknowledgements.markdown */,
+				E063519B5F3E72BF5EB2951676911559 /* Pods-DryUM-iOS_Example-acknowledgements.plist */,
+				5C6D0097FDB9161EAA2CC47006546F77 /* Pods-DryUM-iOS_Example-dummy.m */,
+				B3D927780820E01E98A6BC7E1ACE8157 /* Pods-DryUM-iOS_Example-Info.plist */,
+				D13810144D72AD4E6E2C61F4910B328D /* Pods-DryUM-iOS_Example-umbrella.h */,
+				013AE1C39754E6A1A13E308AB5C340B6 /* Pods-DryUM-iOS_Example.debug.xcconfig */,
+				FCEE0A85C6C694BAADACCBAEA50C16BF /* Pods-DryUM-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-DryUM-iOS_Example";
+			path = "Target Support Files/Pods-DryUM-iOS_Example";
+			sourceTree = "<group>";
+		};
+		4E78F2A373F519897505765A0CC20D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68395DC2878DC721F721473586356617 /* SecurityEnvSDK.framework */,
+				FCB64A5B8777140DB51948113155253C /* UTDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		532618A791BAE0DFED564FB3A43FCBAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8069B764A506D19D9BA1A03150D52ED /* UMCCommon.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCCommon";
+			sourceTree = "<group>";
+		};
+		5CBF330718B5F91FAF94219190E6EE1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA1ED3BD5E723A5D8E409CE7C7C49009 /* UMPush.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E3E58AE9F5F213244C435B83D70CC7A /* UMCPush */ = {
+			isa = PBXGroup;
+			children = (
+				5CBF330718B5F91FAF94219190E6EE1F /* Frameworks */,
+				9B48A38E8215F6D121536550A5E7EC81 /* Support Files */,
+			);
+			name = UMCPush;
+			path = UMCPush;
+			sourceTree = "<group>";
+		};
+		9B48A38E8215F6D121536550A5E7EC81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B340757AED6C3054FC107D0C09E878 /* UMCPush.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCPush";
+			sourceTree = "<group>";
+		};
+		A5FCCD95184EE5D894F19911397D43B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6BE4D33E1D0FB77724E0BBF5E6DFF8F /* UMCSecurityPlugins.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCSecurityPlugins";
+			sourceTree = "<group>";
+		};
+		A6630C72E9BA63194C41BEA7D403F11D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BA0F2D4C849DD6B1FF46DF13D712471 /* Pods-DryUM-iOS_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B2733A00997D3EE3426D411C8AA3F3D5 /* UMCAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				3251CEB5D9667794DA7F7B4ECD046382 /* Frameworks */,
+				C1F688F8CBACAB2B507994FC0C157BF6 /* Support Files */,
+			);
+			name = UMCAnalytics;
+			path = UMCAnalytics;
+			sourceTree = "<group>";
+		};
+		BE00C9E1B8D7803C7B4B8ADCD4B6AA0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0CE4B0036FCB6213E25D45CBDD34062 /* DryUM_iOS.framework */,
+				E6DFA4049E98F516636383397C9315D6 /* Pods_DryUM_iOS_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1F688F8CBACAB2B507994FC0C157BF6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				416723B517942ABCAC779DAC2B197150 /* UMCAnalytics.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCAnalytics";
+			sourceTree = "<group>";
+		};
+		CE9D55A3FA78D5AB56002CA8343EC86D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38187D51A2F7D05F40B2F4F574242720 /* DryUM-iOS.modulemap */,
+				1F580AD9446CADD38D0B0AB4B4E72C9D /* DryUM-iOS.xcconfig */,
+				82F8D6DD666B2773C3CBD2212F6F2550 /* DryUM-iOS-dummy.m */,
+				A60EF09340089E51B37BE1AE228CACD6 /* DryUM-iOS-Info.plist */,
+				2F57F4286F601F4B7DD67ACF01C27732 /* DryUM-iOS-prefix.pch */,
+				4E8C19A1C669987D83A92C377364B439 /* DryUM-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DryUM-iOS";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1F4121EAB107207A38DAEBC47BA728E4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				39DA214630776F7F05C2304846392012 /* Pods */,
+				BE00C9E1B8D7803C7B4B8ADCD4B6AA0D /* Products */,
+				A6630C72E9BA63194C41BEA7D403F11D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E143115FDBB9E5DACD9654D237AD44F1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CB20446619FAAA81A3E789B230ABD7E9 /* DryUM-iOS.podspec */,
+				8A765B15ADC3D0748EBFE6B9E111BD9F /* LICENSE */,
+				B6C72541FD1048DC7231563F14699337 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E543D6F6B8BBC7C1BCDF091781AE8840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375EB40BFC1E61FE8862EC83F102F9AC /* UMCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB6FB2882A2CD22E7E932E61A3048D65 /* DryUM-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F5D63B4E719D1F8A9A06C242BC94BEBC /* DryUM.h */,
+				3FDA242A41FE20A1FC254299C124EADC /* DryUM.m */,
+				2579F5CBB249A5B225B00A4252107DD2 /* DryUMAnalytics.h */,
+				FFEC70BE72E5CAF632F7ADC6E11BAC92 /* DryUMAnalytics.m */,
+				717E9EFA39FFB7277CC05393F2FC1E20 /* DryUMPush.h */,
+				6782E7ADA0747BA3E54B436FB528B671 /* DryUMPush.m */,
+				E143115FDBB9E5DACD9654D237AD44F1 /* Pod */,
+				CE9D55A3FA78D5AB56002CA8343EC86D /* Support Files */,
+			);
+			name = "DryUM-iOS";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE829E37CDC993894DD1A7FBB9A53998 /* UMCSecurityPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				4E78F2A373F519897505765A0CC20D38 /* Frameworks */,
+				A5FCCD95184EE5D894F19911397D43B1 /* Support Files */,
+			);
+			name = UMCSecurityPlugins;
+			path = UMCSecurityPlugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		580883B459F6BBACADB45B9209809900 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D137F2C45442F2C0001CFA7754348E /* Pods-DryUM-iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666B2DA2D13E0E09E6B2D4B1EBDC38FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2943D57AA201883A88437BD1B07181D2 /* DryUM-iOS-umbrella.h in Headers */,
+				C73CEC62C407A6DDCFA58167684562BA /* DryUM.h in Headers */,
+				DE2D97CE36D33111BC335CCC9F755967 /* DryUMAnalytics.h in Headers */,
+				0FEF36B5310074ABE2DC7A47ACF64B60 /* DryUMPush.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53B209E303CC2DAC003C1C0BCDD33326 /* Pods-DryUM-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E1B8FF4D5C4E9A8E63F19289EF21D4 /* Build configuration list for PBXNativeTarget "Pods-DryUM-iOS_Example" */;
+			buildPhases = (
+				580883B459F6BBACADB45B9209809900 /* Headers */,
+				E7B98853F72981A2DAFB04223EF6AEE7 /* Sources */,
+				414CD64621737084F570BB505C547D8F /* Frameworks */,
+				5B6BADE6199F769F9D9E41118F59DFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BEA3F7809B4BE6686A3B10A66E9C6D4 /* PBXTargetDependency */,
+				4DACD8ABED8FE43FBA9137F587D6C9E1 /* PBXTargetDependency */,
+				6DF01ADDEB9EDE0DF6A74A2B3AB18841 /* PBXTargetDependency */,
+				989F7AEF1850A6C0A70AA8E438ACB742 /* PBXTargetDependency */,
+				7488419509F3920DCAC8DD14E9C5AE0B /* PBXTargetDependency */,
+			);
+			name = "Pods-DryUM-iOS_Example";
+			productName = "Pods-DryUM-iOS_Example";
+			productReference = E6DFA4049E98F516636383397C9315D6 /* Pods_DryUM_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95E6AF4D06BFD57DD3556BD06230AC68 /* DryUM-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620B716CDCADD78811EB3101D9C271C4 /* Build configuration list for PBXNativeTarget "DryUM-iOS" */;
+			buildPhases = (
+				666B2DA2D13E0E09E6B2D4B1EBDC38FE /* Headers */,
+				BA7984A2F6B519C3A0764451F006A250 /* Sources */,
+				F3E4ED4AA2D70557CC25D0CF9C5A49EB /* Frameworks */,
+				8BBF755FDF255F8E1A293AB4303C4F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35084E20846BE4C64618C36384F22C4 /* PBXTargetDependency */,
+				F524148B56606AEED18D9E6D2F05F8CC /* PBXTargetDependency */,
+				E070EC12D18395409364EDD89C30476A /* PBXTargetDependency */,
+				3429FB580D783E3C14D01A0C5063BB5C /* PBXTargetDependency */,
+			);
+			name = "DryUM-iOS";
+			productName = "DryUM-iOS";
+			productReference = D0CE4B0036FCB6213E25D45CBDD34062 /* DryUM_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE00C9E1B8D7803C7B4B8ADCD4B6AA0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E6AF4D06BFD57DD3556BD06230AC68 /* DryUM-iOS */,
+				53B209E303CC2DAC003C1C0BCDD33326 /* Pods-DryUM-iOS_Example */,
+				FD2E8643412994484A50DA7D3BFB1EFC /* UMCAnalytics */,
+				6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */,
+				8FBAE66FA6352AB9D5094143816D813B /* UMCPush */,
+				8B5BB4D9C85FBB3B774B6C624239821A /* UMCSecurityPlugins */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B6BADE6199F769F9D9E41118F59DFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBF755FDF255F8E1A293AB4303C4F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA7984A2F6B519C3A0764451F006A250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F107BF6599AFFAC4F2636C6A7A57D6B /* DryUM-iOS-dummy.m in Sources */,
+				639EEA44C3EC9932A2093E93A94BC942 /* DryUM.m in Sources */,
+				E7412AD174474EF55283F71885372828 /* DryUMAnalytics.m in Sources */,
+				1C733C9625ED90D6FF5611BD65478FCD /* DryUMPush.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B98853F72981A2DAFB04223EF6AEE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D3926B890FD7CC618608E7BEB3C95D /* Pods-DryUM-iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AA74F1DC8F967A299E55F117770183E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
+			targetProxy = 2DD89F9193875CA31D459FC9B6C365EA /* PBXContainerItemProxy */;
+		};
+		3429FB580D783E3C14D01A0C5063BB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCSecurityPlugins;
+			target = 8B5BB4D9C85FBB3B774B6C624239821A /* UMCSecurityPlugins */;
+			targetProxy = 63406EDA607D7E82E1889A5BAAAA5675 /* PBXContainerItemProxy */;
+		};
+		4DACD8ABED8FE43FBA9137F587D6C9E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCAnalytics;
+			target = FD2E8643412994484A50DA7D3BFB1EFC /* UMCAnalytics */;
+			targetProxy = 0BB9ED34BA90BD3BC565D0CB323D928C /* PBXContainerItemProxy */;
+		};
+		6DF01ADDEB9EDE0DF6A74A2B3AB18841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
+			targetProxy = B94FB9E65A4112596F71478C9A36DCA5 /* PBXContainerItemProxy */;
+		};
+		7488419509F3920DCAC8DD14E9C5AE0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCSecurityPlugins;
+			target = 8B5BB4D9C85FBB3B774B6C624239821A /* UMCSecurityPlugins */;
+			targetProxy = 7216E56F514B38B15E3045E9446151E6 /* PBXContainerItemProxy */;
+		};
+		7543CDCCA3373472C138AD41ACFE97FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
+			targetProxy = D9F0C3CD25FC71B4D478A8E57D033CE7 /* PBXContainerItemProxy */;
+		};
+		989F7AEF1850A6C0A70AA8E438ACB742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCPush;
+			target = 8FBAE66FA6352AB9D5094143816D813B /* UMCPush */;
+			targetProxy = 08FD1EC6C4E7D1C3330D435673D1387A /* PBXContainerItemProxy */;
+		};
+		9BEA3F7809B4BE6686A3B10A66E9C6D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DryUM-iOS";
+			target = 95E6AF4D06BFD57DD3556BD06230AC68 /* DryUM-iOS */;
+			targetProxy = F1364A1C1DA32432AC59EF493B73ED35 /* PBXContainerItemProxy */;
+		};
+		C35084E20846BE4C64618C36384F22C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCAnalytics;
+			target = FD2E8643412994484A50DA7D3BFB1EFC /* UMCAnalytics */;
+			targetProxy = 5734CD1BB5AB6D474708A8D2A1D7CDD2 /* PBXContainerItemProxy */;
+		};
+		E070EC12D18395409364EDD89C30476A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCPush;
+			target = 8FBAE66FA6352AB9D5094143816D813B /* UMCPush */;
+			targetProxy = E50AEDDFB57D5ADC9D1314AB717F8D55 /* PBXContainerItemProxy */;
+		};
+		F524148B56606AEED18D9E6D2F05F8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
+			targetProxy = 3B890C6CDD9F3AF9D5B6E800B6ED8823 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		040A433B3FE35C08E2084B3D50872DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F580AD9446CADD38D0B0AB4B4E72C9D /* DryUM-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryUM-iOS/DryUM-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryUM-iOS/DryUM-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/DryUM-iOS/DryUM-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DryUM_iOS;
+				PRODUCT_NAME = DryUM_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		137FFBFBE7B5C19F474F25608029D370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B340757AED6C3054FC107D0C09E878 /* UMCPush.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24093987BC6E60FE1E9A8C3DF3384811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B340757AED6C3054FC107D0C09E878 /* UMCPush.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34CA3E6930D3629559D11D36E5877E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013AE1C39754E6A1A13E308AB5C340B6 /* Pods-DryUM-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryUM-iOS_Example/Pods-DryUM-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryUM-iOS_Example/Pods-DryUM-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		537099DEDD1F8BBE54C6ED5963AE2903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416723B517942ABCAC779DAC2B197150 /* UMCAnalytics.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70BAD2CF1EE6AE4AA96338DECF03535E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416723B517942ABCAC779DAC2B197150 /* UMCAnalytics.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		747B1AEAC737B30C8B6DB176A7DD8459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCEE0A85C6C694BAADACCBAEA50C16BF /* Pods-DryUM-iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryUM-iOS_Example/Pods-DryUM-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryUM-iOS_Example/Pods-DryUM-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B573475AA9226E9AC81596F4A4D512DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8069B764A506D19D9BA1A03150D52ED /* UMCCommon.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C09695D60F521D5036EB21CE6F4ABCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F580AD9446CADD38D0B0AB4B4E72C9D /* DryUM-iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryUM-iOS/DryUM-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryUM-iOS/DryUM-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/DryUM-iOS/DryUM-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DryUM_iOS;
+				PRODUCT_NAME = DryUM_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6B4FAD5C709222D26CDF7EA6FCF4060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8069B764A506D19D9BA1A03150D52ED /* UMCCommon.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D82DAEB94106A4A21FD450D71DC087F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BE4D33E1D0FB77724E0BBF5E6DFF8F /* UMCSecurityPlugins.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1751B09904DCD59D61FAB7C07BEBD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BE4D33E1D0FB77724E0BBF5E6DFF8F /* UMCSecurityPlugins.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29CC3BA24298E548A5C728432AE3B6C5 /* Build configuration list for PBXAggregateTarget "UMCSecurityPlugins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1751B09904DCD59D61FAB7C07BEBD66 /* Debug */,
+				D82DAEB94106A4A21FD450D71DC087F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		620B716CDCADD78811EB3101D9C271C4 /* Build configuration list for PBXNativeTarget "DryUM-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040A433B3FE35C08E2084B3D50872DBF /* Debug */,
+				C09695D60F521D5036EB21CE6F4ABCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		659A333171E297639FF7EB7798504CBD /* Build configuration list for PBXAggregateTarget "UMCCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B573475AA9226E9AC81596F4A4D512DA /* Debug */,
+				C6B4FAD5C709222D26CDF7EA6FCF4060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E1B8FF4D5C4E9A8E63F19289EF21D4 /* Build configuration list for PBXNativeTarget "Pods-DryUM-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CA3E6930D3629559D11D36E5877E94 /* Debug */,
+				747B1AEAC737B30C8B6DB176A7DD8459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855840CB447AB7371B32F8AA557D3A71 /* Build configuration list for PBXAggregateTarget "UMCAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70BAD2CF1EE6AE4AA96338DECF03535E /* Debug */,
+				537099DEDD1F8BBE54C6ED5963AE2903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72DB3BA64D16DB9BF298CDBE8BA1015 /* Build configuration list for PBXAggregateTarget "UMCPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24093987BC6E60FE1E9A8C3DF3384811 /* Debug */,
+				137FFBFBE7B5C19F474F25608029D370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

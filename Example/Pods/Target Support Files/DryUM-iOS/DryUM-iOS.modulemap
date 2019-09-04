@@ -1,0 +1,6 @@
+framework module DryUM_iOS {
+  umbrella header "DryUM-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
