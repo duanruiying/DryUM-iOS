@@ -37,16 +37,10 @@
     "Foundation"
   ],
   "dependencies": {
-    "UMCCommon": [
+    "UMCommon": [
 
     ],
-    "UMCSecurityPlugins": [
-
-    ],
-    "UMCAnalytics": [
-
-    ],
-    "UMCPush": [
+    "UMDevice": [
 
     ]
   }

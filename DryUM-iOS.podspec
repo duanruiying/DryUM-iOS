@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   # Git
   s.name        = 'DryUM-iOS'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = 'DryUM-iOS'
   s.homepage    = 'https://github.com/duanruiying/DryUM-iOS'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }
@@ -45,9 +45,7 @@ Pod::Spec.new do |s|
   # ThirdParty
   #s.vendored_libraries  = ''
   #s.vendored_frameworks = ''
-  s.dependency 'UMCCommon'
-  s.dependency 'UMCSecurityPlugins'
-  s.dependency 'UMCAnalytics'
-  s.dependency 'UMCPush'
+  s.dependency 'UMCommon'
+  s.dependency 'UMDevice'
   
 end

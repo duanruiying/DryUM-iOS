@@ -1,11 +1,13 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DryUM-iOS" "${PODS_ROOT}/UMCAnalytics" "${PODS_ROOT}/UMCCommon" "${PODS_ROOT}/UMCPush" "${PODS_ROOT}/UMCSecurityPlugins/thirdparties"
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DryUM-iOS" "${PODS_ROOT}/UMCommon/UMCommon_7.2.5" "${PODS_ROOT}/UMDevice/UMDevice_1.1.0"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/DryUM-iOS/DryUM_iOS.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/DryUM-iOS/DryUM_iOS.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/DryUM-iOS" -iframework "${PODS_ROOT}/UMCAnalytics" -iframework "${PODS_ROOT}/UMCCommon" -iframework "${PODS_ROOT}/UMCPush" -iframework "${PODS_ROOT}/UMCSecurityPlugins/thirdparties"
-OTHER_LDFLAGS = $(inherited) -ObjC -w -l"sqlite3" -l"z" -framework "CoreTelephony" -framework "DryUM_iOS" -framework "Foundation" -framework "SecurityEnvSDK" -framework "SystemConfiguration" -framework "UIKit" -framework "UMAnalytics" -framework "UMCommon" -framework "UMPush" -framework "UTDID" -framework "UserNotifications"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/DryUM-iOS/DryUM_iOS.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/DryUM-iOS" -iframework "${PODS_ROOT}/UMCommon/UMCommon_7.2.5" -iframework "${PODS_ROOT}/UMDevice/UMDevice_1.1.0"
+OTHER_LDFLAGS = $(inherited) -ObjC -w -l"sqlite3" -l"z" -framework "CoreTelephony" -framework "DryUM_iOS" -framework "Foundation" -framework "SystemConfiguration" -framework "UIKit" -framework "UMCommon" -framework "UMDevice"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
 USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

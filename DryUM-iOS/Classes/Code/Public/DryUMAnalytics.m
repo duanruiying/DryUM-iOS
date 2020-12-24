@@ -5,7 +5,7 @@
 //  Created by Ruiying Duan on 2019/7/19.
 //
 
-#import <UMAnalytics/MobClick.h>
+#import <UMCommon/MobClick.h>
 #import "DryUMAnalytics.h"
 
 @implementation DryUMAnalytics
