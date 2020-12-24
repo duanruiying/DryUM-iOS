@@ -197,6 +197,11 @@
 				CLASSPREFIX = Dry;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Dry;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XLE6PLCUL5;
+					};
+				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "DryUM-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -400,7 +405,7 @@
 			baseConfigurationReference = 5CD8DF42F9785D7AE2D0CB7A /* Pods-DryUM-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XLE6PLCUL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryUM-iOS/DryUM-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryUM-iOS/DryUM-iOS-Info.plist";
@@ -417,7 +422,7 @@
 			baseConfigurationReference = D62C27983C3D9583DB72CB36 /* Pods-DryUM-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = XLE6PLCUL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryUM-iOS/DryUM-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryUM-iOS/DryUM-iOS-Info.plist";
